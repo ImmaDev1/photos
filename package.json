@@ -1,0 +1,41 @@
+{
+  "name": "Secialix_Chatbot",
+  "version": "1.0.0",
+  "description": "A real-time chatbot powered by Hugging Face models with a frontend and backend.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "build": "echo 'No build step required for this project'",
+    "test": "echo 'No tests configured yet'",
+    "lint": "eslint . --ext .js",
+    "predeploy": "npm run build",
+    "deploy": "vercel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeminiFan207/Secialix_Chatbot.git"
+  },
+  "keywords": [
+    "chatbot",
+    "huggingface",
+    "real-time",
+    "vercel",
+    "express",
+    "nodejs"
+  ],
+  "author": "Gemini Fan 207 <geminifan207@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
